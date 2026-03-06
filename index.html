@@ -193,9 +193,17 @@
       selectNodes(selectedNodes)
     }</script>
   <style>
+    body, html {
+      margin: 0 !important;
+      padding: 0 !important;
+      overflow: hidden ;
+
+    }
+
     .vis-overlay {
       bottom: 0;
       left: 0;
+      
       position: absolute;
       right: 0;
       top: 0;
@@ -923,15 +931,21 @@
   </center>
   <style type="text/css">
     * {
+      margin: 0 !important;
+      padding: 0 !important;
+      background-color: #0f0f0f;
+      border: none !important;
+
+    }
+    body{
       margin: 0;
       padding: 0;
-      background-color: #0f0f0f;
-
     }
 
     #mynetwork {
-      width: 100%;
+      width: 100vw;
       height: 100vh;
+      border: none !important;
       background-color: #0f0f0f;
       position: relative;
       float: left;
