@@ -1000,8 +1000,9 @@
   { "color": "#012d73", "font": { "color": "white", "size": 80 }, "id": "COFL", "label": "COFL", "shape": "circle", "size": 100},
   
   // Setores de Apoio Direto
-  { "color": "#0257b9", "font": { "color": "white" }, "id": "SGD", "label": "SETOR DE GESTÃO DOCUMENTAL", "shape": "dot", "size": 85 },
-  { "color": "#0257b9", "font": { "color": "white" }, "id": "SDJ", "label": "SETOR DE DEMANDAS JUDICIAIS E DE CONTROLE EM O.F.L.", "shape": "dot", "size":85 },
+  { "color": "#2889fa", "font": { "color": "white" }, "id": "SGD", "label": "SETOR DE GESTÃO DOCUMENTAL", "shape": "dot", "size": 30 },
+  { "color": "#2889fa", "font": { "color": "white" }, "id": "SDJ", "label": "SETOR DE DEMANDAS JUDICIAIS E DE CONTROLE EM O.F.L.", "shape": "dot", "size":30 },
+  { "color": "#2889fa", "font": { "color": "white" }, "id": "ACESS", "label": "ASSESSORIA TÉCNICA ESPECIALIZADA", "shape": "dot", "size":30 },
 
   // Divisão 1: DIOFC (Orçamento, Finanças e Contabilidade)
   { "color": "#0257b9", "font": { "color": "white", "size": 50 }, "id": "DIOFC", "label": "DIOFC", "shape": "circle", "size": 50},
@@ -1041,6 +1042,7 @@ edges = new vis.DataSet([
   { "arrows": "to", "from": "COFL", "to": "DIOFC", "width": 2 },
   { "arrows": "to", "from": "COFL", "to": "DENGPAI", "width": 2 },
   { "arrows": "to", "from": "COFL", "to": "DLLC", "width": 2 },
+  {"arrows": "to", "from": "COFL", "to": "ACESS", "width": 2},
 
   // Setores da DIOFC
   { "arrows": "to", "from": "DIOFC", "to": "S_CONTAB" },
